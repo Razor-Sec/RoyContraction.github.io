@@ -3,6 +3,7 @@
   --yellow:#f5bf23;
   --black:#111;
   --white:#fff;
+  --green:#07f903;
   --light-color:#666;
   --light-bg:#eee;
   --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
@@ -63,6 +64,24 @@ section {
   text-transform: capitalize;
   -webkit-transition: .2s linear;
   transition: .2s linear;
+}
+
+.btna {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  background: var(--green);
+  color: var(--white);
+  cursor: pointer;
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+.btna:hover {
+  background: var(--yellow);
+  color: var(--black);
 }
 
 .btn:hover {
